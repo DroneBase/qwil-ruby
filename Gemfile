@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.3.1'
+
 # Declare your gem's dependencies in qwil.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
@@ -18,7 +20,7 @@ gem 'faraday_middleware'
 
 # group :test do
 #   gem 'vcr'
-#   gem 'webmock'
+  # gem 'webmock'
 #   gem 'mocha'
 #   gem 'shoulda-matchers'
 #   gem 'factory_girl_rails'

@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Qwil::VERSION
   s.authors     = ["Tomas Becklin"]
   s.email       = ["tomasbecklin@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Qwil."
-  s.description = "TODO: Description of Qwil."
+  s.homepage    = "https://github.com/DroneBase/Qwil"
+  s.summary     = "Ruby bindings for the Qwil API: https://staging.qwil.co/docs/"
+  s.description = ""
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -25,4 +25,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "guard"
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "vcr"
+  s.add_development_dependency "webmock"
 end
