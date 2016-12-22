@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'support/vcr_setup'
 
 RSpec.describe Qwil do
 

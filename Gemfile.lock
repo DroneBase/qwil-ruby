@@ -169,7 +169,6 @@ GEM
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    vcr (3.0.3)
     webmock (1.22.6)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
@@ -188,7 +187,6 @@ DEPENDENCIES
   rspec
   rspec-nc
   sqlite3
-  vcr
   webmock
 
 RUBY VERSION
