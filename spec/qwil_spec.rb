@@ -1,12 +1,17 @@
 require 'spec_helper'
 require 'support/vcr_setup'
-require 'qwil'
 
-RSpec.describe PaymentProcessor::Qwil do
+RSpec.describe Qwil do
 
-  subject { PaymentProcessor::Qwil }
+  subject { Qwil }
 
-  context 'success authenticate with qwil', vcr: { cassette_name: 'qwil/success_authenticating' } do
+  before(:each) do
+    subject.api_email = 'fake@example.com'
+    subject.api_password = 'password'
+    subject.api_host = 'staging.qwil.co'
+  end
+
+  context 'success authenticate with qwil' do
 
     before do
       subject.authenticate

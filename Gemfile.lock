@@ -85,12 +85,15 @@ GEM
     lumberjack (1.0.10)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
+    metaclass (0.0.4)
     method_source (0.8.2)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.10.0)
+    mocha (1.1.0)
+      metaclass (~> 0.0.1)
     multipart-post (2.0.0)
     nenv (0.3.0)
     nokogiri (1.6.8.1)
@@ -180,6 +183,7 @@ DEPENDENCIES
   faraday_middleware
   guard
   guard-rspec
+  mocha
   qwil!
   rspec
   rspec-nc
